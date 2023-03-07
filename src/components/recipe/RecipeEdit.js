@@ -325,7 +325,7 @@ export default function RecipeEdit() {
                                             placeholder="Write a title for your recipe. Something catchy ..."
                                             value={servings}
                                             onChange={(e) =>
-                                                setTitle(e.target.value)
+                                                setServings(e.target.value)
                                             }
                                         />
                                     </div>
@@ -340,7 +340,7 @@ export default function RecipeEdit() {
                                             placeholder="Write a title for your recipe. Something catchy ..."
                                             value={notes}
                                             onChange={(e) =>
-                                                setTitle(e.target.value)
+                                                setNotes(e.target.value)
                                             }
                                         />
                                     </div>
